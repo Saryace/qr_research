@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About me!",
+    "section": "",
+    "text": "My research is focused on laboratory and field studies related to soil science and environmental studies, specifically in soil physics. Now I am interested in to understand urban soil ecosystem services. I am actively seeking collaboration opportunities.\n\nTeaching:\n\n\nI am teaching two courses this year: Statistical methods for natural resources (R classes) and Environmental Biophysics\nI am preparing new materials for the following courses: Geology and Soil Sciences and Soil Conservation\n\n\nWriting papers: I am writing academic articles related to urban soils and soil physics. You can see my publication list here\nR packages: I have developed two R packages:\n\n\nggsoiltexture: Provides a simple ggplot function for the plotting of soil textural data.\nInfiltrodiscR: Provides functions for the modeling of data derived from the Minidisk Infiltrometer device.\n\n\nWorking on grant applications: I am preparing my application to a project for Initiation in Research (FONDECYT Iniciación ANID-Chile) Geared towards young researchers who have obtained their PhD in the previous five years. The head researcher, along with the sponsoring institution, obtains funding for technical personnel and thesis student"
+  },
+  {
+    "objectID": "index.html#sara-acevedo-assistant-prof.-ponfificia-universidad-católica-de-chile",
+    "href": "index.html#sara-acevedo-assistant-prof.-ponfificia-universidad-católica-de-chile",
+    "title": "About me!",
+    "section": "",
+    "text": "My research is focused on laboratory and field studies related to soil science and environmental studies, specifically in soil physics. Now I am interested in to understand urban soil ecosystem services. I am actively seeking collaboration opportunities.\n\nTeaching:\n\n\nI am teaching two courses this year: Statistical methods for natural resources (R classes) and Environmental Biophysics\nI am preparing new materials for the following courses: Geology and Soil Sciences and Soil Conservation\n\n\nWriting papers: I am writing academic articles related to urban soils and soil physics. You can see my publication list here\nR packages: I have developed two R packages:\n\n\nggsoiltexture: Provides a simple ggplot function for the plotting of soil textural data.\nInfiltrodiscR: Provides functions for the modeling of data derived from the Minidisk Infiltrometer device.\n\n\nWorking on grant applications: I am preparing my application to a project for Initiation in Research (FONDECYT Iniciación ANID-Chile) Geared towards young researchers who have obtained their PhD in the previous five years. The head researcher, along with the sponsoring institution, obtains funding for technical personnel and thesis student"
+  },
+  {
+    "objectID": "index.html#poster-in-egu-2024",
+    "href": "index.html#poster-in-egu-2024",
+    "title": "About me!",
+    "section": "Poster in EGU 2024",
+    "text": "Poster in EGU 2024\nA citywide analysis of urban soil in parks: metals and organic matter concentration and homogeneous infiltration capacity"
+  },
+  {
+    "objectID": "index.html#location-of-parks-sampled-for-infiltration",
+    "href": "index.html#location-of-parks-sampled-for-infiltration",
+    "title": "About me!",
+    "section": "Location of parks sampled for infiltration",
+    "text": "Location of parks sampled for infiltration\nWork in progress!\n\nlibrary(leaflet)\nleaflet() %&gt;% \n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=-70.6412692, lat=-33.4356565, popup=\"Parque Forestal\") %&gt;% \n    addMarkers(lng=-70.6401543, lat=-33.4404796, popup=\"Parque San Borja\") %&gt;% \n    addMarkers(lng=-70.6320152, lat=-33.4348176, popup=\"Parque Balmaceda\") %&gt;% \n    addMarkers(lng=-70.6185047, lat=-33.4957693, popup=\"Campus San Joaquín\")"
+  },
+  {
+    "objectID": "index.html#research-group-papers-related-to-urban-soils",
+    "href": "index.html#research-group-papers-related-to-urban-soils",
+    "title": "About me!",
+    "section": "Research group papers related to urban soils",
+    "text": "Research group papers related to urban soils\nA comparative study of soil metal concentrations in Chilean urban parks using four pollution indexes AS Vega et al. Applied Geochemistry 141, 105230 8 2022\nAn integrated study of health, environmentaland socioeconomic indicators in a mining-impacted community exposed to metal enrichment Pablo M. Moya,Guillermo J. Arce,Cinthya Leiva,Alejandra S. Vega,Santiago Gutierrez,Hector Adaros,Luis Muñoz,Pablo A. Pasten, Sandra Cortes 2019\nActive and legacy mining in an arid urban environment:challenges and perspectives for Copiapó, Northern Chile Athena B. Carkovic, Magdalena S. Calcagni, Alejandra S. Vega, Marina Coquery, Pablo M. Moya, Carlos A. Bonilla, Pablo A. Pasten 2016"
+  }
+]

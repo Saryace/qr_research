@@ -1,0 +1,54 @@
+---
+title: "About me!"
+format:
+  html:
+    theme: materia
+---
+
+## Sara Acevedo, Assistant Prof. Ponfificia Universidad Católica de Chile
+
+My research is focused on laboratory and field studies related to soil science and environmental studies, specifically in soil physics. Now I am interested in to understand urban soil ecosystem services. I am actively seeking collaboration opportunities. 
+
+1. **Teaching:**
+- I am teaching two courses this year: Statistical methods for natural resources (R classes) and Environmental Biophysics
+- I am preparing new materials for the following courses: Geology and Soil Sciences and Soil Conservation
+
+2. **Writing papers:** 
+I am writing academic articles related to urban soils and soil physics. You can see my publication list [here](https://scholar.google.com/citations?user=WJqqnIQAAAAJ&hl)
+
+3. **R packages:**
+I have developed two R packages:
+- [ggsoiltexture](https://github.com/Saryace/ggsoiltexture): Provides a simple ggplot function for the plotting of soil textural data.
+- [InfiltrodiscR](https://github.com/biofisicasuelos/infiltrodiscR): Provides functions for the modeling of data derived from the Minidisk Infiltrometer device.
+
+4. **Working on grant applications:**
+I am preparing my application to a project for Initiation in Research (FONDECYT Iniciación ANID-Chile) Geared towards young researchers who have obtained their PhD in the previous five years. The head researcher, along with the sponsoring institution, obtains funding for technical personnel and thesis student
+
+## Poster in EGU 2024
+
+[A citywide analysis of urban soil in parks: metals and organic matter concentration and homogeneous infiltration capacity ](https://doi.org/10.5194/egusphere-egu24-13024)
+
+## Location of parks sampled for infiltration
+
+Work in progress!
+
+```{r}
+library(leaflet)
+leaflet() %>% 
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=-70.6412692, lat=-33.4356565, popup="Parque Forestal") %>% 
+    addMarkers(lng=-70.6401543, lat=-33.4404796, popup="Parque San Borja") %>% 
+    addMarkers(lng=-70.6320152, lat=-33.4348176, popup="Parque Balmaceda") %>% 
+    addMarkers(lng=-70.6185047, lat=-33.4957693, popup="Campus San Joaquín")
+```
+
+## Research group papers related to urban soils
+
+[A comparative study of soil metal concentrations in Chilean urban parks using four pollution indexes](https://www.sciencedirect.com/science/article/pii/S0883292722000348)
+AS Vega et al.
+Applied Geochemistry 141, 105230	8	2022
+
+[An integrated study of health, environmentaland socioeconomic indicators in a mining-impacted community exposed to metal enrichment](https://pubmed.ncbi.nlm.nih.gov/31049755/)
+Pablo M. Moya,Guillermo J. Arce,Cinthya Leiva,Alejandra S. Vega,Santiago Gutierrez,Hector Adaros,Luis Muñoz,Pablo A. Pasten, Sandra Cortes 2019
+
+[Active and legacy mining in an arid urban environment:challenges and perspectives for Copiapó, Northern Chile](https://link.springer.com/article/10.1007/s10653-016-9793-5) Athena B. Carkovic, Magdalena S. Calcagni, Alejandra S. Vega, Marina Coquery, Pablo M. Moya, Carlos A. Bonilla, Pablo A. Pasten 2016
